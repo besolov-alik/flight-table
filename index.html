@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Табло рейсов</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	
+<header>
+	<h2>Табло рейсов</h2>
+	<button id="departures-filter" class="btn btn-success">Вылеты</button>
+	<button id="arrivals-filter" class="btn btn-success">Прилёты</button>
+	<button id="delays-filter" class="btn btn-success">Задержанные рейсы</button>
+	<input id='filter-input' class="form-control" type='text' placeholder="search">
+</header>
+
+<div id="container" class="row">
+
+	<div class="flight departure rounded border-danger bg-light">
+		<strong class="plane-time">23:00</strong>
+		<em>13 ноября</em>   
+		<p class="city">Пенза</p> 
+		<p class="plane-name">EO</p>
+		<strong class="plane-number">163</strong>
+		<p class="plane-status">Вылетел</p>
+	</div>
+	<div class="flight arrival rounded border-success bg-light">
+		<strong class="plane-time">18:45</strong>
+		<em>1 ноября</em>   
+		<p class="city">Нью-Йорк</p> 
+		<p class="plane-name">E4</p>
+		<strong class="plane-number">328</strong>
+		<p class="plane-status">Прилетел</p>
+	</div>
+	<div class="flight arrival rounded border-success bg-light">
+		<strong class="plane-time">11:17</strong>
+		<em>12 ноября</em>   
+		<p class="city">Мадрид</p> 
+		<p class="plane-name">KL</p>
+		<strong class="plane-number">452</strong>
+		<p class="plane-status">Прилетел</p>
+	</div>
+	<div class="flight delay rounded border-primary bg-light">
+		<strong class="plane-time">16:00</strong>
+		<em>13 октября</em>   
+		<p class="city">Минусинск</p> 
+		<p class="plane-name">SU</p>
+		<strong class="plane-number">592</strong>
+		<p class="plane-status">Задержался</p>
+	</div>
+	<div class="flight departure rounded border-danger bg-light">
+		<strong class="plane-time">17:32</strong>
+		<em>17 ноября</em>   
+		<p class="city">Плюсинск</p> 
+		<p class="plane-name">O2</p>
+		<strong class="plane-number">1234</strong>
+		<p class="plane-status">Вылетел</p>
+	</div>
+	<div class="flight departure rounded border-danger bg-light">
+		<strong class="plane-time">23:00</strong>
+		<em>2 ноября</em>   
+		<p class="city">Рязань</p> 
+		<p class="plane-name">E4</p>
+		<strong class="plane-number">743</strong>
+		<p class="plane-status">Вылетел</p>
+	</div>
+	<div class="flight arrival rounded border-success bg-light">
+		<strong class="plane-time">19:03</strong>
+		<em>24 октября</em>   
+		<p class="city">Париж</p> 
+		<p class="plane-name">E7</p>
+		<strong class="plane-number">093</strong>
+		<p class="plane-status">Прилетел</p>
+	</div>
+	<div class="flight departure rounded border-danger bg-light">
+		<strong class="plane-time">19:43</strong>
+		<em>23 ноября</em>   
+		<p class="city">Владикавказ</p> 
+		<p class="plane-name">N4</p>
+		<strong class="plane-number">897</strong>
+		<p class="plane-status">Вылетел</p>
+	</div>
+	<div class="flight delay rounded border-primary bg-light">
+		<strong class="plane-time">13:00</strong>
+		<em>14 ноября</em>   
+		<p class="city">Москва</p> 
+		<p class="plane-name">SU</p>
+		<strong class="plane-number">178</strong>
+		<p class="plane-status">Задержался</p>
+	</div>
+	<div class="flight delay rounded border-primary bg-light">
+		<strong class="plane-time">18:17</strong>
+		<em>9 октября</em>   
+		<p class="city">Омск</p> 
+		<p class="plane-name">N7</p>
+		<strong class="plane-number">091</strong>
+		<p class="plane-status">Задержался</p>
+	</div>
+	<div class="flight departure rounded border-danger bg-light">
+		<strong class="plane-time">11:54</strong>
+		<em>9 ноября</em>   
+		<p class="city">Орёл</p> 
+		<p class="plane-name">KL</p>
+		<strong class="plane-number">2334</strong>
+		<p class="plane-status">Вылетел</p>
+	</div>
+	<div class="flight arrival rounded border-success bg-light">
+		<strong class="plane-time">9:18</strong>
+		<em>12 октября</em>   
+		<p class="city">Магадан</p> 
+		<p class="plane-name">Т9</p>
+		<strong class="plane-number">897</strong>
+		<p class="plane-status">Прилетел</p>
+	</div>
+</div>
+
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/script.js"></script>
+
+</body>
+</html>

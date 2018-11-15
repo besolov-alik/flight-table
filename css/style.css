@@ -1,0 +1,114 @@
+.hide {
+  display: none !important;
+}
+
+header {
+  text-align: center;
+  padding-bottom: 25px;
+  position: relative;
+}
+
+header input {
+  font-size:24px;
+  width: 200px !important;
+  display: inline-block !important;
+  height: 35px !important;
+  position: inherit;
+  top: 3px;
+}
+
+header h2 {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.departure, .arrival, .delay {
+  border: 1px solid;
+}
+
+.row {
+  display: block;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  zoom: 1;
+  display: -ms-flexbox;
+  display: box;
+  display: flex;
+  -webkit-box-lines: multiple;
+  -moz-box-lines: multiple;
+  -o-box-lines: multiple;
+  flex-wrap: wrap;
+  -o-box-pack: justify;
+  justify-content: space-between;
+  -o-box-align: start;
+  align-flights: start;
+  width: 1200px;
+  margin: auto;
+}
+
+.row:before, .row:after {
+  content: "";
+  display: table;
+}
+
+.row:after {
+  clear: both;
+}
+
+.flight {
+  position: relative;
+  display: block;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100px;
+  width: 100%;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+.flight .plane-time {
+  display: block;
+  position: absolute;
+  top: 20%;
+  left: 20px;
+} 
+
+.flight em {
+  display: block;
+  position: absolute;
+  bottom: 15px;
+  left: 10px;
+}
+
+.flight .city {
+  margin: 0 auto;
+  line-height: 85px;
+  font-size: 32px;
+  width: 200px;
+}
+
+.flight .plane-name {
+  display: block;
+  position: absolute;
+  top: 35px;
+  right: 200px;
+}
+
+.flight .plane-number {
+  display: block;
+  position: absolute;
+  top: 35px;
+  right: 150px;
+}
+
+.flight .plane-status {
+  display: block;
+  position: absolute;
+  top: 35px;
+  right: 47px;
+}
+
+.flight:last-child {
+  margin-bottom: 100px;
+}
